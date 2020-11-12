@@ -1,8 +1,3 @@
-Ph0t0sh0p3rs
-Ph0t0sh0p3rs
-R3wr1t1ng3rs
-oldpassword indihome:r3wr1t1ng
-newpassword indihome:ph0t0sh0p
 Studi Kasus Penggunaan git pull dan git fetch
 Untuk mencoba penggunaan git pull dan git fetch kita akan menggunakan repository belajar-git yang sudah dibuat di Github.
 
