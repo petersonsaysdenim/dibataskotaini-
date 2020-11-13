@@ -1,8 +1,3 @@
-Ph0t0sh0p3rs
-Ph0t0sh0p3rs
-R3wr1t1ng3rs
-oldpassword indihome:r3wr1t1ng
-newpassword indihome:ph0t0sh0p
 Studi Kasus Penggunaan git pull dan git fetch
 Untuk mencoba penggunaan git pull dan git fetch kita akan menggunakan repository belajar-git yang sudah dibuat di Github.
 
@@ -112,3 +107,20 @@ git remote -v
 
 git push -f origin master
 That’s all
+
+
+
+#…or create a new repository on the command line
+#echo "# nophising" >> README.md#git init
+#git add README.md
+#git commit -m "first commit"
+#git branch -M main
+#git remote add origin https://github.com/petersonsaysdenim/nophising.git
+#git push -u origin main
+
+
+#…or push an existing repository from the command line
+#git remote add origin https://github.com/petersonsaysdenim/nophising.git
+#git branch -M main
+#git push -u origin main
+
