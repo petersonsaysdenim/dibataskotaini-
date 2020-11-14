@@ -107,6 +107,7 @@ git remote -v
 
 git push -f origin master
 That’s all
+<<<<<<< HEAD
 
 
 
@@ -124,3 +125,5 @@ That’s all
 #git branch -M main
 #git push -u origin main
 
+=======
+>>>>>>> 39445a91bb5f97787152e5ccad974feaa560421f
