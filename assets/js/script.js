@@ -26,4 +26,26 @@
     offset: 56
   });
 
+
+  $('#partner-slide').owlCarousel({
+        margin:30,
+        autoplay:5000,
+        items:5,
+        dots:false,
+        responsive:{
+          0:{
+            items:2,
+            
+          },
+          600:{
+            items:3,
+            
+          },
+          1000:{
+            items:5,
+        
+          }
+          }
+      }); 
+
 })(jQuery); // End of use strict
