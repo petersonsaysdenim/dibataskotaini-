@@ -88,6 +88,14 @@ section {
     padding: 26px 20px 20px;
     border-radius:5px;
 }
+<<<<<<< HEAD
+.bgMajapahit{
+	background-image: url(../images/logo-majapahit/about.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+=======
 
 .singleProduct a{text-decoration: none;}
 .singleProduct:hover{color:#ffffff;}
@@ -131,4 +139,4 @@ section {
 .widget-image-box-content{width: 100%;font-weight:400;}
 .widget-image-box-title{font-size: 17px;color:#fff;font-weight:400;}
 .widget-image-box-desc{font-size: 14px;color:#fff;font-weight:400;}
-.widget-image-box-title
+.widget-image-box-title{}
