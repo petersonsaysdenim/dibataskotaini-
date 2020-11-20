@@ -118,7 +118,6 @@ section {
 }
 @media screen and (min-width: 767.5px) and (max-width: 990px){
   #section9th.px-150{padding:5.66em 0;} 
->>>>>>> 8f64c6cf58087536ef8aab27828aa5ac7b32e8e0
 }
 @media screen and (min-width: 991px) and (max-width: 1117px){
   #section9th.px-150{padding:9.66em 0;} 
@@ -140,4 +139,4 @@ section {
 .widget-image-box-content{width: 100%;font-weight:400;}
 .widget-image-box-title{font-size: 17px;color:#fff;font-weight:400;}
 .widget-image-box-desc{font-size: 14px;color:#fff;font-weight:400;}
-.widget-image-box-title
+.widget-image-box-title{}
