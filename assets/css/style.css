@@ -57,10 +57,10 @@ header {
 }
 
 header#bgMajapahit{background-image: url('../img/banner/about.webp');background-size: cover;background-repeat: no-repeat;background-position: center center;min-height: 600px;}
-/*
-section {
-  padding: 150px 0;
-}*/
+/*navmajapahit*/
+.text-bold .nav-item a.nav-link{color:rgba(0,0,0,1);font-weight: 600;}
+.text-bold .nav-item a.nav-link:hover{color:rgb(244 178 44);}
+/*endnavmajapahit*/
 .btn.btn-default{
 	width:75%;
 	font-size: 15px !important;
@@ -171,3 +171,9 @@ section {
     -o-animation-timing-function: linear;}
 #footersite .widget-footer p{font-size: 14px;color:#000;text-align: inherit;}
 #footersite #footer{background-color: #fff;}
+
+/*carousel dot*/
+#partner-slide .owl-dots{margin-top: 20px;}
+#partner-slide .owl-dots .owl-dot span{width: 12px;height: 12px;opacity: 1;background-color:rgb(0,0,0);}
+#partner-slide .owl-dots .owl-dot.active span{background-color:rgb(255 177 0 / 1);}
+/*endcarouseldot*/
