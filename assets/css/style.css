@@ -50,7 +50,7 @@ transition: all 0.2s ease 0s;
 header {
   padding: 156px 0 100px;
 }
-
+.logosite{max-width: 300px;}
 header#bgMajapahit{background-image: url('../img/banner/about.webp');background-size: cover;background-repeat: no-repeat;background-position: center center;min-height: 600px;}
 /*navmajapahit*/
 .text-bold .nav-item a.nav-link{color:rgba(0,0,0,1);font-weight: 600;}
@@ -82,7 +82,7 @@ header#bgMajapahit{background-image: url('../img/banner/about.webp');background-
 
 
 #section7th  .bgLeft{background-image:url(../img/banner/Path-5-1.webp);background-position: center left;background-repeat: no-repeat;background-size: 100% auto;}
-.singleProduct{    box-shadow: 4px 12px 14px 0px rgba(101.25000000000001,101.25000000000001,101.25000000000001,.5);
+.singleProduct{box-shadow: 4px 12px 14px 0px rgba(101.25000000000001,101.25000000000001,101.25000000000001,.5);
     transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;
     padding: 26px 20px 20px;
     border-radius:5px;
@@ -106,14 +106,24 @@ header#bgMajapahit{background-image: url('../img/banner/about.webp');background-
     background-repeat: no-repeat;
     background-size: cover;}
 #section9th.px-150{padding:11.66em 0;}
+@media screen and (min-width: 320px) and (max-width:576px){
+  .logosite{max-width: 150px;}
+  .d-xs-none{display: none;}
+  .wrappercol{padding:0 15px;margin: 15px 0;}
+  .btn-40.btn-100{width:100%;}
+}
 @media screen and (max-width: 768px){
   #section9th.px-150{padding:4.66em 0;}
+  .logosite{max-width: 200px}
+  .btn-40.btn-100{width:40%;}
 }
 @media screen and (min-width: 767.5px) and (max-width: 990px){
-  #section9th.px-150{padding:5.66em 0;} 
+  #section9th.px-150{padding:5.66em 0;}
+  .btn-40.btn-100{width:40%;} 
 }
 @media screen and (min-width: 991px) and (max-width: 1117px){
-  #section9th.px-150{padding:9.66em 0;} 
+  #section9th.px-150{padding:9.66em 0;}
+  .btn-40.btn-100{width:40%;} 
 }
 
 .widget:first-child{margin-bottom: 30px;}
