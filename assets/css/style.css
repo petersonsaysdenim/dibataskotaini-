@@ -83,6 +83,7 @@ header#bgMajapahit{background-image: url('../img/banner/about.webp');background-
     padding: 26px 20px 20px;
     border-radius:5px;
 }
+
 .singleProduct a{text-decoration: none;}
 .singleProduct:hover{color:#ffffff;}
 .singleProduct.pink:hover{background:#fd9bb8;}
