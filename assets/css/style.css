@@ -57,6 +57,7 @@ header#bgMajapahit{background-image: url('../img/banner/about.webp');background-
 .text-bold .nav-item a.nav-link:hover{color:rgb(244 178 44);}
 /*endnavmajapahit*/
 .btn.btn-default{width:75%;font-size: 15px !important;padding: 12px 42px;color: #fff;background-image: linear-gradient(to right,#ffb100 0%,#ffb100 25%,#ffcc57 75%,#ffcc57 100%) !important;box-shadow: 0 14px 26px -12px rgba(0,0,0,.42), 0 4px 23px 0 rgba(0,0,0,.12), 0 8px 10px -5px rgba(8,8,8,.2);}
+.btn-40.btn-100{width:30%;}
 .svg-inline--fa.fa-w-14{width: .875em;}
 .text-yellow{color:#FFB100;}
 /*.pcustom-t40-b50{padding:40px 20px 50px 20px;}*/
@@ -89,12 +90,16 @@ header#bgMajapahit{background-image: url('../img/banner/about.webp');background-
 }
 
 .singleProduct a{text-decoration: none;}
-.singleProduct:hover{color:#ffffff;}
+.singleProduct.pink:hover .textProduct > h4 > span,.singleProduct.orange:hover .textProduct > h4 > span,.singleProduct.blue:hover .textProduct > h4 > span,.singleProduct.green:hover .textProduct > h4 > span{color:#ffffff;}
 .singleProduct.pink:hover{background:#fd9bb8;}
+.singleProduct.pink .textProduct  h4  span{color: #fc80a6;}
 .singleProduct.blue:hover{background:#74bbde;}
+.singleProduct.blue .textProduct  h4  span{color: #00aaff;}
 .singleProduct.green:hover{background:#81ff5b;}
+.singleProduct.green .textProduct  h4  span{color: #3ee113;}
 .singleProduct.orange:hover{background:#ffd064;}
-.singleProduct .textProduct p:hover{color:#fff;}
+.singleProduct.orange .textProduct  h4  span{color: #f4a301;}
+.singleProduct:hover .textProduct p{color:#fff;}
 .textProduct{margin-top:-15px;}
 .textProduct h4{font-weight: 500;font-size: 28px;line-height: 36px;text-align: inherit;margin-bottom: 0.9rem}
 .textProduct p{margin-bottom: 0.5rem;color:#333;}
@@ -115,11 +120,11 @@ header#bgMajapahit{background-image: url('../img/banner/about.webp');background-
 @media screen and (max-width: 768px){
   #section9th.px-150{padding:4.66em 0;}
   .logosite{max-width: 200px}
-  .btn-40.btn-100{width:40%;}
+  .btn-40.btn-100{width:30%;}
 }
 @media screen and (min-width: 767.5px) and (max-width: 990px){
   #section9th.px-150{padding:5.66em 0;}
-  .btn-40.btn-100{width:40%;} 
+  .btn-40.btn-100{width:30%;} 
 }
 @media screen and (min-width: 991px) and (max-width: 1117px){
   #section9th.px-150{padding:9.66em 0;}
@@ -170,7 +175,7 @@ header#bgMajapahit{background-image: url('../img/banner/about.webp');background-
     -o-animation-duration: 6s;
     -o-animation-iteration-count: infinite;
     -o-animation-timing-function: linear;}
-#footersite .widget-footer p{font-size: 14px;color:#000;text-align: inherit;}
+#footersite .widget-footer p{font-size: 14px;color:#000;text-align: inherit;word-break:break-all;}
 #footersite .widget-footer .widget-footer-info > p{margin-bottom:13px;display:table;}
 #footersite .widget-footer .widget-footer-info > p > span:first-child{display:table-cell;float:left;line-height: 2;margin-right: 15px;}
 #footersite .widget-footer .widget-footer-info > p > span:first-child > svg{color:#ff9500; }
